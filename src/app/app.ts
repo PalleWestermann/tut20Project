@@ -1,12 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { User } from "./components/user/user";
-import { Admin } from "./components/admin/admin";
-import { GetApi } from './components/get-api/get-api';
+
+
 
 @Component({
   selector: 'app-root',
-  imports: [GetApi],
+  imports: [User],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
